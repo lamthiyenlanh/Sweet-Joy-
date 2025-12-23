@@ -1,0 +1,225 @@
+.product-card {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-card img {
+    height: 260px;
+    object-fit: cover;
+}
+
+.product-title {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.product-code {
+    font-size: 13px;
+    color: #888;
+}
+
+.product-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.price {
+    background-color: #CF4B6B;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.btn-cart {
+    background-color: #5a2d2d;
+    color: white;
+    border-radius: 50%;
+}
+.product-title {
+    font-weight: 700;
+    font-size: 14px;
+    color: #333;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.product-title:hover {
+    color: #cf4a6b; /* màu hồng chủ đạo của Sweet Joy */
+}
+
+/* Section */
+.featured-products {
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+/* Title */
+.featured-title {
+    font-family: 'Pacifico';
+    color: #cf4a6b;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.featured-title .line {
+    width: 60px;
+    height: 2px;
+    background-color: #cf4a6b;
+}
+
+/* Card */
+.featured-card {
+    background: #cf4a6b;
+    border-radius: 20px;
+    padding: 20px;
+    transition: all 0.35s ease;
+    position: relative;
+}
+
+.featured-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+    border-radius: 15px;
+}
+
+/* Hover nổi lên */
+.featured-card:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* Name */
+.featured-name {
+    margin-top: 15px;
+    font-weight: 600;
+    color: #fff;
+}
+
+/* Price */
+.featured-price {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Cart button */
+.featured-cart {
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #5B3236;
+}
+
+.featured-card img {
+    width: 100%;
+    height: 180px;              /* khóa chiều cao */
+    object-fit: cover;          /* lấp đầy khung, không méo */
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+/* Section */
+.cafe-section {
+    background-color: #fff;
+    padding: 80px 0;
+}
+
+/* Title */
+.cafe-title {
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+/* Card */
+.cafe-card {
+    background: #fff;
+    border-radius: 18px;
+    overflow: hidden;
+    transition: all 0.35s ease;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.cafe-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+/* Image */
+.cafe-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+/* Body */
+.cafe-body {
+    padding: 18px;
+}
+
+.cafe-name {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+/* Action */
+.cafe-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-contact {
+    background-color: #cf4a6b;
+    border: none;
+    padding: 6px 18px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.btn-cart {
+    background-color: #5a2d2d;
+    border: none;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 8px;
+}
+
+/* Hiệu ứng hover tên bánh */
+.cafe-name {
+    color: #333;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.cafe-name:hover {
+    color: #cf4a6b;   /* hồng chủ đạo */
+}
+
+/* Hiệu ứng hover nút Liên hệ */
+.btn-contact {
+    background-color: #b6d400;
+    color: #000;
+    transition: all 0.3s ease;
+}
+
+.btn-contact:hover {
+    background-color: #cf4a6b; /* hồng */
+    color: #fff;
+}
+
